@@ -21,7 +21,6 @@ app.post('/chat/:roomId', async (req, res) => {
     }
   });
   
-  //For every message sent in a chat room, the message is appended to the chat history stored under the key 
   //chat:room:roomId. This builds the chat transcript.
   app.get('/log-error', async (req, res) => {
     try {
