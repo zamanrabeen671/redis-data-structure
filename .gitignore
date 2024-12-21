@@ -1,0 +1,16 @@
+node_modules/
+npm-debug.log
+package-lock.json
+.DS_Store
+.vscode/
+.dockerignore
+docker-compose.yml
+.env
+
+npm-shrinkwrap.json
+coverage/
+dist/
+tmp/
+logs/
+Redis.pdf
+redis-data-structures/
